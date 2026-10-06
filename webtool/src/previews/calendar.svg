@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="104" viewBox="0 0 212 104" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#20221f">
+<title>Calendar page</title>
+<g shape-rendering="crispEdges">
+<rect x="1.5" y="1.5" width="209" height="101" fill="none" stroke="#20221f"/>
+<line x1="125.5" y1="2" x2="125.5" y2="102" stroke="#20221f"/>
+<rect x="2" y="2" width="123" height="17"/>
+</g>
+<text x="5" y="13" font-size="8" fill="#f1f0e6">CN</text>
+<text x="22" y="13" font-size="8" fill="#f1f0e6">T2</text>
+<text x="39" y="13" font-size="8" fill="#f1f0e6">T3</text>
+<text x="56" y="13" font-size="8" fill="#f1f0e6">T4</text>
+<text x="73" y="13" font-size="8" fill="#f1f0e6">T5</text>
+<text x="90" y="13" font-size="8" fill="#f1f0e6">T6</text>
+<text x="107" y="13" font-size="8" fill="#f1f0e6">T7</text>
+<text x="77" y="32" font-size="8">1</text>
+<text x="94" y="32" font-size="8">2</text>
+<text x="111" y="32" font-size="8">3</text>
+<text x="9" y="45" font-size="8">4</text>
+<rect x="24" y="35" width="10" height="13"/>
+<text x="26" y="45" font-size="8" fill="#f1f0e6">5</text>
+<text x="43" y="45" font-size="8">6</text>
+<text x="60" y="45" font-size="8">7</text>
+<text x="77" y="45" font-size="8">8</text>
+<text x="94" y="45" font-size="8">9</text>
+<text x="108" y="45" font-size="8">10</text>
+<text x="6" y="58" font-size="8">11</text>
+<text x="23" y="58" font-size="8">12</text>
+<text x="40" y="58" font-size="8">13</text>
+<text x="57" y="58" font-size="8">14</text>
+<text x="74" y="58" font-size="8">15</text>
+<text x="91" y="58" font-size="8">16</text>
+<text x="108" y="58" font-size="8">17</text>
+<text x="6" y="71" font-size="8">18</text>
+<text x="23" y="71" font-size="8">19</text>
+<text x="40" y="71" font-size="8">20</text>
+<text x="57" y="71" font-size="8">21</text>
+<text x="74" y="71" font-size="8">22</text>
+<text x="91" y="71" font-size="8">23</text>
+<text x="108" y="71" font-size="8">24</text>
+<text x="6" y="84" font-size="8">25</text>
+<text x="23" y="84" font-size="8">26</text>
+<text x="40" y="84" font-size="8">27</text>
+<text x="57" y="84" font-size="8">28</text>
+<text x="74" y="84" font-size="8">29</text>
+<text x="91" y="84" font-size="8">30</text>
+<text x="108" y="84" font-size="8">31</text>
+<text x="130" y="11" font-size="8">2026-10</text>
+<text x="135" y="65" font-size="46" font-weight="700" textLength="68" lengthAdjust="spacingAndGlyphs">05</text>
+<text x="140" y="85" font-size="14" font-weight="700">10:10</text>
+<text x="138" y="97" font-size="8">Binh Ngo</text>
+<text x="2" y="97" font-size="8">TK:Han Lo</text>
+</svg>

@@ -3,21 +3,24 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://T-Anh17.github.io/eink_da14585_104x212/",
   "scripts": {
-    "start": "node ./scripts/start.mjs",
-    "build": "node ./node_modules/typescript/bin/tsc -p tsconfig.json",
-    "predeploy": "npm run build && (if exist dist_gh rmdir /s /q dist_gh) && mkdir dist_gh && mkdir dist_gh\\dist && copy index.html dist_gh\\ && copy style.css dist_gh\\ && xcopy /e /y dist dist_gh\\dist",
-    "deploy": "cd dist_gh && git init && git add . && git commit -m \"Deploy Webtool\" && git push -f https://T-Anh17@github.com/T-Anh17/eink_da14585_104x212.git master:gh-pages"
+    "start": "vite --host 127.0.0.1 --port 3000",
+    "dev": "npm run start",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 3000",
+    "test": "vitest run"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "vue": "^3.5.43"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "typescript": "^5.6.3",
-    "gh-pages": "^6.3.0"
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "daisyui": "^5.7.47",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.0",
+    "vite": "^8.3.2",
+    "vitest": "^4.1.11",
+    "vue-tsc": "^3.3.12"
   }
 }

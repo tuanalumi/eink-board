@@ -1,14 +1,21 @@
 interface RequestDeviceOptions {
   filters?: Array<{ namePrefix?: string }>;
+  acceptAllDevices?: boolean;
   optionalServices?: string[];
 }
 
-interface BluetoothRemoteGATTCharacteristic {
+interface BluetoothRemoteGATTCharacteristic extends EventTarget {
+  properties?: { notify: boolean };
+  value?: DataView;
   writeValue(value: BufferSource): Promise<void>;
+  writeValueWithResponse?(value: BufferSource): Promise<void>;
+  startNotifications?(): Promise<BluetoothRemoteGATTCharacteristic>;
 }
 
 interface BluetoothRemoteGATTService {
-  getCharacteristic(characteristic: string): Promise<BluetoothRemoteGATTCharacteristic>;
+  getCharacteristic(
+    characteristic: string,
+  ): Promise<BluetoothRemoteGATTCharacteristic>;
 }
 
 interface BluetoothRemoteGATTServer {
@@ -19,6 +26,7 @@ interface BluetoothRemoteGATTServer {
 }
 
 interface BluetoothDevice extends EventTarget {
+  id: string;
   name?: string;
   gatt?: BluetoothRemoteGATTServer;
 }
